@@ -11,7 +11,7 @@
     <img src="lg.png" alt="" srcset="">
   </div>
 
-   <form name="login-form" action="user/dashboard.html" onsubmit="return validasi()" method="post">
+   <form name="login-form" action="" onsubmit="return validasi()" method="post">
     <div class="container">
       <img id="welcome" src="welcome.png" alt="" srcset="">
       <hr>
@@ -46,7 +46,7 @@
     location.replace("dashboard.html");
   }
   else{
-      return true;
+      location.replace("user/dashboard.html");
   }
   return false;
 }
